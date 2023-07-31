@@ -1,5 +1,5 @@
 module.exports = {
-    getIndex: (req,res)=>{
+    getLogIn: (req,res)=>{
         res.render('login', {
             layout: 'login'
           })

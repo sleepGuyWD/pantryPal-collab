@@ -6,7 +6,7 @@ const dotenv = require('dotenv')
 const exphbs = require('express-handlebars')
 const passport = require('passport')
 const session = require('express-session')
-const homeRoutes = require('./routes/home')
+const loginRoutes = require('./routes/login')
 
 const MongoStore = require('connect-mongo')
 
@@ -57,7 +57,7 @@ app.use(express.static(path.join(__dirname,
   'public')))
 
 // Routes
-app.use('/', homeRoutes)
+app.use('/', loginRoutes)
 
   app.listen(
     PORT, 
