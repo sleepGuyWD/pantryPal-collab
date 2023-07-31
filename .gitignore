@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 .github/
-.github/templates/
+templates/
 dist
 dist-ssr
 *.local
