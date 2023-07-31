@@ -2,16 +2,40 @@
   "name": "pantry-pal",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "description": "App to create Patry",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "node server.js",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "devDependencies": {
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "packages": "^0.0.8"
-  }
+    "connect-mongo": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
+    "exphbs": "^1.2.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.0",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "mongoose": "^7.4.1",
+    "packages": "^0.0.8",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepGuyWD/pantryPal-collab.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleepGuyWD/pantryPal-collab/issues"
+  },
+  "homepage": "https://github.com/sleepGuyWD/pantryPal-collab#readme"
 }
