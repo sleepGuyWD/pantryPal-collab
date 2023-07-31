@@ -23,9 +23,35 @@ Pantry Pal is developed with:
 6. MongoDB/Mongoose
 7. Google OAuth (2.0)
 
-ESLINT as linter and prettify as its formatter. !!Need to look up how to utilize and what are the benefits
+# Linting
+
+This project uses ESLint as the linter. Linters help catch common errors and enforce consistent code style.
+
+Some benefits of using a linter:
+
+- Catches syntax errors and bugs early during development
+- Enforces consistent code style as per project guidelines
+- Improves code readability and maintainability
+- Helps avoid bugs induced by human error
+- Reduces simple mistakes that can lead to complex bugs
+- Catches insecure and deprecated code patterns
+
+Linting improves code quality and reduces bugs!
 
 To setup development environment follow:
+
+# Dependencies
+
+    Node.js v10+
+    Express
+    MongoDB
+    Mongoose
+    Passport.js
+    Google OAuth 2.0
+    HTML/CSS
+    JavaScript
+    ESLint - linter
+    Prettier - code formatter
 
 1. clone repo
 ```bash
